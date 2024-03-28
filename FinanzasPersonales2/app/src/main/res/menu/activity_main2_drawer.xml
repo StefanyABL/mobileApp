@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/id_verGastos"
+            android:icon="@drawable/ic_database_plus_black_24dp"
+            android:title="Ver Gastos" />
+        <item
+            android:id="@+id/id_verIngresos"
+            android:icon="@drawable/database_minus"
+            android:title="Ver ingresos" />
+        <item
+            android:id="@+id/id_administrarCtegories"
+            android:icon="@drawable/format_list_checkbox"
+            android:title="Administrar categorías" />
+
+    </group>
+
+
+
+</menu>
